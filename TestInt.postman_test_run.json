@@ -1,0 +1,233 @@
+{
+	"id": "ce8d7326-eeb3-4e08-8c11-6041ae7bec7d",
+	"name": "TestInt",
+	"timestamp": "2021-12-18T03:45:59.153Z",
+	"collection_id": "17472673-cf7c81c9-c350-49ad-9e02-0cfc2dfe1472",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 15,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "581bf5e4-de60-4428-b195-e28888dd57b6",
+			"name": "Get London Weather data",
+			"url": "http://api.openweathermap.org/data/2.5/weather?q=London&appid=9d50450a48809637b4862bdcb125927d&units=imperial",
+			"time": 130,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"validating City Name": true,
+				"validating Country Id": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validating City Name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validating Country Id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				130
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"validating City Name": true,
+					"validating Country Id": true
+				}
+			]
+		},
+		{
+			"id": "b1fe1c0b-5965-4c4d-9dbd-bf7c55d0760e",
+			"name": "Get Paris Weather data",
+			"url": "http://api.openweathermap.org/data/2.5/weather?q=Paris&appid=9d50450a48809637b4862bdcb125927d&units=imperial",
+			"time": 48,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"validating City Name": true,
+				"validating Country Id": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validating City Name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validating Country Id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				48
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"validating City Name": true,
+					"validating Country Id": true
+				}
+			]
+		},
+		{
+			"id": "4af39406-55bb-49b3-ab4e-db33340515ad",
+			"name": "Get New York Weather data",
+			"url": "http://api.openweathermap.org/data/2.5/weather?q=New%20York&appid=9d50450a48809637b4862bdcb125927d&units=imperial",
+			"time": 48,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"validating City Name": true,
+				"validating Country Id": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validating City Name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validating Country Id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				48
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"validating City Name": true,
+					"validating Country Id": true
+				}
+			]
+		},
+		{
+			"id": "a2b88aec-d706-4beb-a281-4feceb698113",
+			"name": "Get Delhi  Weather Data",
+			"url": "http://api.openweathermap.org/data/2.5/weather?q=Delhi%20&appid=9d50450a48809637b4862bdcb125927d&units=imperial",
+			"time": 436,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"validating City Name": true,
+				"validating Country Id": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validating City Name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validating Country Id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				436
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"validating City Name": true,
+					"validating Country Id": true
+				}
+			]
+		},
+		{
+			"id": "bd85a310-dd97-4c55-a70e-5ea2e0154bfe",
+			"name": "Get Tokyo Weather details",
+			"url": "http://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=9d50450a48809637b4862bdcb125927d&units=imperial",
+			"time": 52,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"validating City Name": true,
+				"validating Country Id": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validating City Name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validating Country Id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				52
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"validating City Name": true,
+					"validating Country Id": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 714,
+	"collection": {
+		"requests": [
+			{
+				"id": "581bf5e4-de60-4428-b195-e28888dd57b6",
+				"method": "GET"
+			},
+			{
+				"id": "b1fe1c0b-5965-4c4d-9dbd-bf7c55d0760e",
+				"method": "GET"
+			},
+			{
+				"id": "4af39406-55bb-49b3-ab4e-db33340515ad",
+				"method": "GET"
+			},
+			{
+				"id": "a2b88aec-d706-4beb-a281-4feceb698113",
+				"method": "GET"
+			},
+			{
+				"id": "bd85a310-dd97-4c55-a70e-5ea2e0154bfe",
+				"method": "GET"
+			}
+		]
+	}
+}

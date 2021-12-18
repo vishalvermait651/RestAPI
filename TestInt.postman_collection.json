@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "cf7c81c9-c350-49ad-9e02-0cfc2dfe1472",
+		"name": "TestInt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get London Weather data",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"var response = JSON.parse(responseBody);\r",
+							"tests[\"validating City Name\"]= response.name== (\"London\");\r",
+							"    \r",
+							"tests[\"validating Country Id\"]= response.id== (\"2643743\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}=London&appid=9d50450a48809637b4862bdcb125927d&units=imperial"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Paris Weather data",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"var response = JSON.parse(responseBody);\r",
+							"tests[\"validating City Name\"]= response.name== (\"Paris\");\r",
+							"\r",
+							"tests[\"validating Country Id\"]= response.id== (\"2988507\");\r",
+							"    \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}=Paris&appid=9d50450a48809637b4862bdcb125927d&units=imperial"
+			},
+			"response": []
+		},
+		{
+			"name": "Get New York Weather data",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"var response = JSON.parse(responseBody);\r",
+							"tests[\"validating City Name\"]= response.name== (\"New York\");\r",
+							"\r",
+							"tests[\"validating Country Id\"]= response.id== (\"5128581\");\r",
+							"    \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}=New York&appid=9d50450a48809637b4862bdcb125927d&units=imperial"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Delhi  Weather Data",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"var response = JSON.parse(responseBody);\r",
+							"tests[\"validating City Name\"]= response.name== (\"Delhi\");\r",
+							"\r",
+							"tests[\"validating Country Id\"]= response.id== (\"1273294\");\r",
+							"    \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}=Delhi &appid=9d50450a48809637b4862bdcb125927d&units=imperial"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Tokyo Weather details",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"var response = JSON.parse(responseBody);\r",
+							"tests[\"validating City Name\"]= response.name== (\"Tokyo\");\r",
+							"\r",
+							"tests[\"validating Country Id\"]= response.id== (\"1850144\");\r",
+							"    \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}=Tokyo&appid=9d50450a48809637b4862bdcb125927d&units=imperial"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16341" started-at="2021-12-18T18:15:43 EST" finished-at="2021-12-18T18:15:59 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16341" started-at="2021-12-18T18:15:43 EST" finished-at="2021-12-18T18:15:59 EST">
+      <class name="WeaterAPI.GetWeatherData">
+        <test-method status="PASS" signature="getDetalis()[pri:0, instance:WeaterAPI.GetWeatherData@6ee52dcd]" name="getDetalis" duration-ms="10628" started-at="2021-12-18T18:15:43 EST" finished-at="2021-12-18T18:15:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDetalis -->
+        <test-method status="PASS" signature="getResponseCode()[pri:1, instance:WeaterAPI.GetWeatherData@6ee52dcd]" name="getResponseCode" duration-ms="2092" started-at="2021-12-18T18:15:53 EST" finished-at="2021-12-18T18:15:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseCode -->
+        <test-method status="PASS" signature="getBody()[pri:2, instance:WeaterAPI.GetWeatherData@6ee52dcd]" name="getBody" duration-ms="1340" started-at="2021-12-18T18:15:55 EST" finished-at="2021-12-18T18:15:57 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBody -->
+        <test-method status="PASS" signature="getContentType()[pri:3, instance:WeaterAPI.GetWeatherData@6ee52dcd]" name="getContentType" duration-ms="984" started-at="2021-12-18T18:15:57 EST" finished-at="2021-12-18T18:15:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContentType -->
+        <test-method status="PASS" signature="getAllHeaders()[pri:4, instance:WeaterAPI.GetWeatherData@6ee52dcd]" name="getAllHeaders" duration-ms="1192" started-at="2021-12-18T18:15:58 EST" finished-at="2021-12-18T18:15:59 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllHeaders -->
+      </class> <!-- WeaterAPI.GetWeatherData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
